@@ -48,7 +48,8 @@ brainstorming/
 ├── SKILL.md                                   技能主体（5 步流程 + 陷阱）
 └── references/
     ├── game-market-evidence.md                步骤③ 市场取证的源表与「手机版」三类假阳性识别
-    └── tool-and-jam-feasibility.md            步骤② 「能不能做出来」的三层判定法（规则/工具/实测）
+    ├── tool-and-jam-feasibility.md            步骤② 「能不能做出来」的三层判定法（规则/工具/实测）
+    └── game-design-frameworks.md              设计框架速查（供步骤④⑤ 综合草案时调用）
 ```
 
 ## 流程概览
