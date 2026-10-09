@@ -11,10 +11,19 @@
 ### 方法 A：`hermes skills install`（推荐）
 
 ```bash
-# 标识符形式
-hermes skills install bill20232033cc/brainstorming-skill
+# 标识符 = <owner>/<repo>/<技能目录>，注意末尾的 /brainstorming
+hermes skills install bill20232033cc/brainstorming-skill/brainstorming
 
-# 或直接指向 SKILL.md 的 URL
+# 预览（不安装）
+hermes skills inspect bill20232033cc/brainstorming-skill/brainstorming
+```
+
+> 该技能已被 skills.sh 收录：
+> https://skills.sh/bill20232033cc/brainstorming-skill/brainstorming
+
+备选：直接指向 `SKILL.md` 的 HTTP(S) URL（需要本机能访问 raw.githubusercontent.com）：
+
+```bash
 hermes skills install https://raw.githubusercontent.com/bill20232033cc/brainstorming-skill/main/brainstorming/SKILL.md
 ```
 
